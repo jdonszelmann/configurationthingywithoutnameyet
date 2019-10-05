@@ -44,6 +44,13 @@ somenamespace:
     
     # scientific notation
     n = 1e10
+    
+    # multiline lists
+    p = [
+        "a",
+        "b",
+        "c",
+    ]
 
 """
         res = main.loads(teststring)
@@ -67,6 +74,12 @@ somenamespace:
                 'l': 83,
                 'm': 10,
                 'n': 1e10,
+                'p': [
+                    "a",
+                    "b",
+                    "c",
+                ],
+
                 'tester': {'a': 'b', 'b': 'something'}
             }
         })

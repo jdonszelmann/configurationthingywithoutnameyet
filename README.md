@@ -49,6 +49,14 @@ somenamespace:
     
     # setting keys to values
     o = n # now also 1e10, works through scopes
+
+    # multiline lists
+    p = [
+        "a",
+        "b",
+        "c",
+    ]
+    
 ```
 
 ## Extends syntax
