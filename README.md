@@ -1,5 +1,5 @@
 
-# <name here>
+# name here
 
 A simple to write, extendable configuration language. 
 
