@@ -56,6 +56,8 @@ somenamespace:
         "b",
         "c",
     ]
+    # complex  value types
+    q = [{"a": "b"}, 3, "f"]
     
 ```
 

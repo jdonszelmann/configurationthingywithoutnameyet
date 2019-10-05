@@ -51,6 +51,9 @@ somenamespace:
         "b",
         "c",
     ]
+    
+    # complex values    
+    q = [{"a": "b"}, 3, "f"]
 
 """
         res = main.loads(teststring)
@@ -79,7 +82,7 @@ somenamespace:
                     "b",
                     "c",
                 ],
-
+                'q': [{"a": "b"}, 3, "f"],
                 'tester': {'a': 'b', 'b': 'something'}
             }
         })
