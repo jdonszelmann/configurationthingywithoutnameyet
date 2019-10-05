@@ -6,4 +6,7 @@ It also doesn't do scoping correctly, it should start looking from the closest e
 Currently it looks through the global scope first.
 
 
+name = name syntax not yet implemented
+
 WARNING: I started with this at 00.42am and finished this python code at 3.23am
+

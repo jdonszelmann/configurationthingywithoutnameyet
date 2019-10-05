@@ -88,8 +88,6 @@ def apply_extends(config: dict, origconfig=None):
             if key not in config:
                 config[key] = value
 
-
-
     return config
 
 

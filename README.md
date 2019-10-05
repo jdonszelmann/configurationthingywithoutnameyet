@@ -44,6 +44,11 @@ somenamespace:
     l = 0o123
     # and binary
     m = 0b1010
+    # scientific notation
+    n = 1e10
+    
+    # setting keys to values
+    o = n # now also 1e10, works through scopes
 ```
 
 ## Extends syntax
