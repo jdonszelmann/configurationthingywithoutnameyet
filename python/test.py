@@ -41,6 +41,9 @@ somenamespace:
     l = 0o123
     # and binary
     m = 0b1010
+    
+    # scientific notation
+    n = 1e10
 
 """
         res = main.loads(teststring)
@@ -63,6 +66,7 @@ somenamespace:
                 'k': 21,
                 'l': 83,
                 'm': 10,
+                'n': 1e10,
                 'tester': {'a': 'b', 'b': 'something'}
             }
         })
